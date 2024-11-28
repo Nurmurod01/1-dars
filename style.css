@@ -1,0 +1,76 @@
+nav {
+  background-color: #2b3844;
+  display: flex;
+  justify-content: space-between;
+}
+nav h2 {
+  margin-left: 81px;
+  color: white;
+}
+nav .container {
+  margin-right: 81px;
+  display: flex;
+  flex-direction: row;
+  text-underline-position: auto;
+}
+nav .container p {
+  margin: 3px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #202c36;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .countries_1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  gap: 75px;
+}
+main .countries_1_item-1 {
+  height: 336px;
+}
+main .countries_1_item-2 {
+  height: 336px;
+}
+main .countries_1_item-3 {
+  height: 336px;
+}
+main .countries_1_item-4 {
+  height: 336px;
+}
+main .countries_1 img {
+  width: 264px;
+  height: 160px;
+}
+main .countries_2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 75px;
+  gap: 75px;
+}
+main .countries_2_item-1 {
+  height: 336px;
+}
+main .countries_2_item-2 {
+  height: 336px;
+}
+main .countries_2_item-3 {
+  height: 336px;
+}
+main .countries_2_item-4 {
+  height: 336px;
+}
+main .countries_2 img {
+  width: 264px;
+  height: 160px;
+}/*# sourceMappingURL=style.css.map */
